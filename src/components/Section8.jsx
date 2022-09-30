@@ -11,7 +11,7 @@ export default function Section8() {
           <span className="text-[#D14B39] line-through">
             <span className="text-white">₹72,798 </span>
           </span>
-          <span className="ml-5">₹34,999 - 51% Off </span>
+          <span className="ml-5">₹39,999 - 55% Off </span>
         </p>
         <div className="flex justify-center uppercase cursor-pointer">
           <a href="https://docs.google.com/forms/d/e/1FAIpQLSdo-ItFZwrSoRgFDkAYgdtaTmtmBBEEBpGHfVXbs3vfAwEI-w/viewform?usp=sf_link">
@@ -19,8 +19,8 @@ export default function Section8() {
               type="button"
               className="relative inline-flex items-center mx-7 px-7 py-3.5 rounded-sm border border-transparent bg-green-600 text-lg sm:text-2xl text-white font-medium uppercase hover:bg-green-700"
             >
-              enrollment will open soon
-            </button>{" "}
+              BECOME DIGITAL MARKETING SCIENTIST
+            </button>
           </a>
         </div>
         <p className="italic md:w-1/2 text-xl mx-5 md:mx-auto mt-4 text-center">
@@ -31,7 +31,7 @@ export default function Section8() {
             type="button"
             className="relative inline-flex items-center mx-7 px-7 py-3.5 rounded-sm border border-transparent bg-[#D14B39] text-lg sm:text-2xl text-white font-medium hover:bg-[#b44132] mt-5"
           >
-            Join the Waiting List
+            Enrollment Ends - 15th Oct
           </button>
         </a>
         <p className="italic md:w-2/5 text-xl mx-5 md:mx-auto mt-5">

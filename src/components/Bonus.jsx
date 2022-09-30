@@ -132,7 +132,7 @@ const Bonus = () => {
             <Thirdcount />
           </div>
         </div>
-        <h3 className="flex justify-center text-2xl sm:text-3xl md:text-4xl font-semibold mt-8 text-white text-center">
+        {/* <h3 className="flex justify-center text-2xl sm:text-3xl md:text-4xl font-semibold mt-8 text-white text-center">
           Instalment Also Available
         </h3>
         <p className="text-white text-base md:text-lg mt-3 italic">
@@ -140,13 +140,13 @@ const Bonus = () => {
         </p>
         <p className="text-white text-base md:text-lg mt-3 italic">
           2nd Instalment Before 15th August
-        </p>
+        </p> */}
         <div className="flex justify-center uppercase mt-8">
           <button
             type="button"
             className="relative inline-flex items-center mx-7 px-7 py-3.5 rounded-sm border border-transparent bg-green-600 text-lg sm:text-2xl text-white font-medium uppercase hover:bg-green-700"
           >
-            ENROLLMENT WILL OPEN SOON
+            BECOME DIGITAL MARKETING SCIENTIST
           </button>
         </div>
         <div className="flex justify-center items-center mt-5">
@@ -155,12 +155,12 @@ const Bonus = () => {
               type="button"
               className="relative inline-flex items-center mx-7 px-7 py-3.5 rounded-sm border border-transparent bg-[#D14B39] text-lg sm:text-2xl text-white font-medium hover:bg-[#b44132]"
             >
-              Join the Waiting List
+              Enrollment Ends - 15th Oct
             </button>
           </a>
         </div>
       </div>
-      <div className="bg-white mx-5 md:mx-14 px-6 py-4 flex transition border border-gray-800 shadow-xl rounded-md mt-8 text-center">
+      <div className="bg-white max-w-6xl mx-5 md:mx-auto px-6 py-4 flex transition border border-gray-800 shadow-xl rounded-md mt-8 text-center">
         <div>
           <h3 className="text-xl mb-3 font-bold text-[#193247]">Note</h3>
           <p className="text-[#193247] font-medium">

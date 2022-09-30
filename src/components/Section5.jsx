@@ -12,7 +12,7 @@ export default function Section5() {
   const label = { inputProps: { "aria-label": "Checkbox demo" } };
   return (
     <div className="text-white">
-      <div className="text-center px-2 mt-6">
+      <div className="text-center px-2 mt-14">
         <h3 className="text-3xl italic font-medium">
           Hurry Up Don’t Miss on these...
         </h3>
@@ -169,7 +169,7 @@ export default function Section5() {
             type="button"
             className="relative inline-flex items-center mx-7 px-7 py-3.5 rounded-sm border border-transparent bg-green-600 text-lg sm:text-2xl text-white font-medium uppercase hover:bg-green-700"
           >
-            ENROLLMENT WILL OPEN SOON
+            BECOME DIGITAL MARKETING SCIENTIST
           </button>
         </a>
       </div>
@@ -179,7 +179,7 @@ export default function Section5() {
             type="button"
             className="relative inline-flex items-center mx-7 px-7 py-3.5 rounded-sm border border-transparent bg-[#D14B39] text-lg sm:text-2xl text-white font-medium hover:bg-[#b44132]"
           >
-            Join the Waiting List
+            Enrollment Ends - 15th Oct
           </button>
         </a>
       </div>

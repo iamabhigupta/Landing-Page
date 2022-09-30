@@ -36,7 +36,7 @@ const testimonials = [
 const Testimonials = () => {
   return (
     <>
-      <div className="text-white">
+      <div className="text-white container mx-auto">
         <h2 className="text-4xl font-bold  text-center">Reviews</h2>
         <div className="mx-auto grid sm:grid-cols-1 md:grid-cols-2  lg:grid-cols-3 xl:grid-cols-3 px-5 pb-16 pt-8 gap-5">
           {/* section  */}

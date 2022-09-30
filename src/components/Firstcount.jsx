@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Firstcount() {
   const countdown = () => {
-    const countDate = new Date("July 05, 2022 00:00:00");
+    const countDate = new Date("Oct 15, 2022 00:00:00");
     const now = new Date().getTime();
     const gap = countDate - now;
 
@@ -23,10 +23,10 @@ export default function Firstcount() {
 
     if (gap < 0) {
       clearInterval(countdown);
-      document.querySelector(".day").innerText = "😢";
-      document.querySelector(".hour").innerText = "😢";
-      document.querySelector(".minute").innerText = "😢";
-      document.querySelector(".second").innerText = "😢";
+      document.querySelector(".day").innerText = "00";
+      document.querySelector(".hour").innerText = "00";
+      document.querySelector(".minute").innerText = "00";
+      document.querySelector(".second").innerText = "00";
     }
   };
 

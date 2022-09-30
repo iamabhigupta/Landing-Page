@@ -38,7 +38,7 @@ export default function Section2() {
                 <FaHandPointRight className="text-4xl mr-5" />
               </div>
               <div className="flex-grow text-base sm:text-xl font-medium">
-                <p className="">Course will start on 17th July</p>
+                <p className="">Course will start on 16th October</p>
               </div>
             </div>
           </div>
@@ -49,7 +49,7 @@ export default function Section2() {
               </div>
               <div className="flex-grow text-base sm:text-xl font-medium">
                 <p className="">
-                  Duration of the Program is <br /> 60 Days
+                  Duration of the Program is <br /> 90 Days
                 </p>
               </div>
             </div>
@@ -60,7 +60,7 @@ export default function Section2() {
                 <FaHandPointRight className="text-4xl mr-5" />
               </div>
               <div className="flex-grow text-base sm:text-xl font-medium">
-                <p>Mon to Thu and Saturday 3 Hours Live Class Timing- 7 PM</p>
+                <p>Mon to Thu and Sunday 3 Hours Live Class Timing- 7 PM</p>
               </div>
             </div>
           </div>
@@ -71,8 +71,8 @@ export default function Section2() {
               </div>
               <div className="flex-grow text-base sm:text-xl font-medium">
                 <p>
-                  Friday will be off for class, you have to complete your
-                  assignments on this day
+                  We will provide you weeekly assignments and you have to
+                  complete that assignment in weekdays
                 </p>
               </div>
             </div>
@@ -107,7 +107,7 @@ export default function Section2() {
             type="button"
             className="relative inline-flex items-center mx-7 px-7 py-3.5 rounded-sm border border-transparent bg-green-600 text-lg sm:text-2xl text-white font-medium uppercase hover:bg-green-700"
           >
-            ENROLLMENT WILL OPEN SOON
+            BECOME DIGITAL MARKETING SCIENTIST
           </button>
         </a>
       </div>
@@ -117,7 +117,7 @@ export default function Section2() {
             type="button"
             className="relative inline-flex items-center mx-7 px-7 py-3.5 rounded-sm border border-transparent bg-[#D14B39] text-lg sm:text-2xl text-white font-medium hover:bg-[#b44132]"
           >
-            Join the Waiting List
+            Enrollment Ends - 15th Oct
           </button>
         </a>
       </div>

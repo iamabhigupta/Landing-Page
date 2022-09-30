@@ -2,11 +2,11 @@ import React from "react";
 
 const Companies = () => {
   return (
-    <>
+    <div className="container mx-auto space-y-10">
       <h2 className="text-3xl sm:text-4xl font-bold pt-5 text-center text-white">
         Featured In
       </h2>
-      <div className=" grid xl:grid-cols-5 grid-cols-2 md:grid-cols-4 justify-center items-center gap-3 p-5 md:p-10">
+      <div className="grid xl:grid-cols-5 grid-cols-2 md:grid-cols-4 justify-center items-center gap-3 mx-5 md:mx-0">
         <div className="bg-white p-4">
           <img
             src="https://www.outlookindia.com/images/home_new_v4/logo_outlook.svg"
@@ -77,7 +77,7 @@ const Companies = () => {
           />
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
