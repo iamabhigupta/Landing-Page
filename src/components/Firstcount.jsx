@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Firstcount() {
   const countdown = () => {
-    const countDate = new Date("Oct 15, 2022 00:00:00");
+    const countDate = new Date("Oct 10, 2022 00:00:00");
     const now = new Date().getTime();
     const gap = countDate - now;
 
@@ -23,10 +23,10 @@ export default function Firstcount() {
 
     if (gap < 0) {
       clearInterval(countdown);
-      document.querySelector(".day").innerText = "00";
-      document.querySelector(".hour").innerText = "00";
-      document.querySelector(".minute").innerText = "00";
-      document.querySelector(".second").innerText = "00";
+      document.querySelector(".day").innerText = "😢";
+      document.querySelector(".hour").innerText = "😢";
+      document.querySelector(".minute").innerText = "😢";
+      document.querySelector(".second").innerText = "😢";
     }
   };
 
@@ -38,21 +38,21 @@ export default function Firstcount() {
     <div>
       <button className="py-1 px-8 text-lg text-gray-100 font-medium tracking-wide antialiased">
         <div className="countdown flex justify-center gap-2 md:gap-4">
-          <div className="container-day bg-[#193247] rounded-sm py-1 px-2">
-            <h3 className="day text-3xl">Time</h3>
-            {/* <h3 className="text-sm capitalize">Days</h3> */}
+          <div className="container-day bg-[#193247] h-14 w-14 rounded-sm grid place-content-center">
+            <h3 className="day text-2xl">Time</h3>
+            <h3 className="text-xs capitalize">Days</h3>
           </div>
-          <div className="container-hour bg-[#193247] rounded-sm py-1 px-2">
-            <h3 className="hour text-3xl">Time</h3>
-            {/* <h3 className="text-sm capitalize">Hour</h3> */}
+          <div className="container-hour bg-[#193247] h-14 w-14 rounded-sm grid place-content-center">
+            <h3 className="hour text-2xl">Time</h3>
+            <h3 className="text-xs capitalize">Hour</h3>
           </div>
-          <div className="container-minute bg-[#193247] rounded-sm py-1 px-2">
-            <h3 className="minute text-3xl">Time</h3>
-            {/* <h3 className="text-sm capitalize">minute</h3> */}
+          <div className="container-minute bg-[#193247] h-14 w-14 rounded-sm grid place-content-center">
+            <h3 className="minute text-2xl">Time</h3>
+            <h3 className="text-xs capitalize">minute</h3>
           </div>
-          <div className="container-second bg-[#193247] rounded-sm py-1 px-2">
-            <h3 className="second text-3xl">Time</h3>
-            {/* <h3 className="text-sm capitalize">second</h3> */}
+          <div className="container-second bg-[#193247] h-14 w-14 rounded-sm grid place-content-center">
+            <h3 className="second text-2xl">Time</h3>
+            <h3 className="text-xs capitalize">second</h3>
           </div>
         </div>
       </button>

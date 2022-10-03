@@ -20,7 +20,7 @@ export default function Section2() {
           best utilise your time in order to be successful in the digital
           marketing world. <br />
           <span className="font-extrabold underline mx-1">
-            With 60 days worth of content + live classes + assessed homework
+            With 100 days worth of content + live classes + assessed homework
             assignments +mentorship.
           </span>
           <br />
@@ -38,7 +38,9 @@ export default function Section2() {
                 <FaHandPointRight className="text-4xl mr-5" />
               </div>
               <div className="flex-grow text-base sm:text-xl font-medium">
-                <p className="">Course will start on 16th October</p>
+                <p className="">
+                  Course will start on 16th Oct and ends on 22nd Jan
+                </p>
               </div>
             </div>
           </div>
@@ -49,30 +51,7 @@ export default function Section2() {
               </div>
               <div className="flex-grow text-base sm:text-xl font-medium">
                 <p className="">
-                  Duration of the Program is <br /> 90 Days
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
-            <div className="h-full flex items-center border-[#D14B39] bg-[#D14B39] border p-4 rounded-md ">
-              <div>
-                <FaHandPointRight className="text-4xl mr-5" />
-              </div>
-              <div className="flex-grow text-base sm:text-xl font-medium">
-                <p>Mon to Thu and Sunday 3 Hours Live Class Timing- 7 PM</p>
-              </div>
-            </div>
-          </div>
-          <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
-            <div className="h-full flex items-center border-[#D14B39] bg-[#D14B39] border p-4 rounded-md ">
-              <div>
-                <FaHandPointRight className="text-4xl mr-5" />
-              </div>
-              <div className="flex-grow text-base sm:text-xl font-medium">
-                <p>
-                  We will provide you weeekly assignments and you have to
-                  complete that assignment in weekdays
+                  Duration of the Program is <br /> 100 Days
                 </p>
               </div>
             </div>
@@ -84,7 +63,31 @@ export default function Section2() {
               </div>
               <div className="flex-grow text-base sm:text-xl font-medium">
                 <p>
-                  Sunday Class Timing will be 11 am to 2 PM and 3 PM TO 6 PM.
+                  Recording of All Live Classes will be provided till 30th Jan
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
+            <div className="h-full flex items-center border-[#D14B39] bg-[#D14B39] border p-4 rounded-md ">
+              <div>
+                <FaHandPointRight className="text-4xl mr-5" />
+              </div>
+              <div className="flex-grow text-base sm:text-xl font-medium">
+                <p>
+                  In weekdays you have to work on Assignments and Live Projects.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
+            <div className="h-full flex items-center border-[#D14B39] bg-[#D14B39] border p-4 rounded-md ">
+              <div>
+                <FaHandPointRight className="text-4xl mr-5" />
+              </div>
+              <div className="flex-grow text-base sm:text-xl font-medium">
+                <p>
+                  Sunday Class Timing will be 11 am to 2 pm and 3 pm TO 7 pm.
                 </p>
               </div>
             </div>
@@ -102,7 +105,7 @@ export default function Section2() {
         </div>
       </div>
       <div className="flex justify-center uppercase mb-8 cursor-pointer">
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdo-ItFZwrSoRgFDkAYgdtaTmtmBBEEBpGHfVXbs3vfAwEI-w/viewform?usp=sf_link">
+        <a href="https://rzp.io/l/nqYBVu8dXj">
           <button
             type="button"
             className="relative inline-flex items-center mx-7 px-7 py-3.5 rounded-sm border border-transparent bg-green-600 text-lg sm:text-2xl text-white font-medium uppercase hover:bg-green-700"
@@ -112,14 +115,12 @@ export default function Section2() {
         </a>
       </div>
       <div className="flex justify-center items-center">
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdo-ItFZwrSoRgFDkAYgdtaTmtmBBEEBpGHfVXbs3vfAwEI-w/viewform?usp=sf_link">
-          <button
-            type="button"
-            className="relative inline-flex items-center mx-7 px-7 py-3.5 rounded-sm border border-transparent bg-[#D14B39] text-lg sm:text-2xl text-white font-medium hover:bg-[#b44132]"
-          >
-            Enrollment Ends - 15th Oct
-          </button>
-        </a>
+        <button
+          type="button"
+          className="relative inline-flex items-center mx-7 px-7 py-3.5 rounded-sm border border-transparent bg-[#D14B39] text-lg sm:text-2xl text-white font-medium hover:bg-[#b44132]"
+        >
+          Enrollment Ends - 15th Oct
+        </button>
       </div>
       <p className="italic md:w-1/2 mx-5 md:mx-auto mt-5 text-center text-xl">
         200+ Hours of Content + 25+ Resources + Private WhatsApp Group + 6

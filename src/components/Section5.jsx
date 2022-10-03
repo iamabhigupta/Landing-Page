@@ -164,7 +164,7 @@ export default function Section5() {
         </div>
       </div>
       <div className="flex justify-center uppercase py-5">
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdo-ItFZwrSoRgFDkAYgdtaTmtmBBEEBpGHfVXbs3vfAwEI-w/viewform?usp=sf_link">
+        <a href="https://rzp.io/l/nqYBVu8dXj">
           <button
             type="button"
             className="relative inline-flex items-center mx-7 px-7 py-3.5 rounded-sm border border-transparent bg-green-600 text-lg sm:text-2xl text-white font-medium uppercase hover:bg-green-700"
@@ -174,14 +174,12 @@ export default function Section5() {
         </a>
       </div>
       <div className="flex justify-center items-center">
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdo-ItFZwrSoRgFDkAYgdtaTmtmBBEEBpGHfVXbs3vfAwEI-w/viewform?usp=sf_link">
-          <button
-            type="button"
-            className="relative inline-flex items-center mx-7 px-7 py-3.5 rounded-sm border border-transparent bg-[#D14B39] text-lg sm:text-2xl text-white font-medium hover:bg-[#b44132]"
-          >
-            Enrollment Ends - 15th Oct
-          </button>
-        </a>
+        <button
+          type="button"
+          className="relative inline-flex items-center mx-7 px-7 py-3.5 rounded-sm border border-transparent bg-[#D14B39] text-lg sm:text-2xl text-white font-medium hover:bg-[#b44132]"
+        >
+          Enrollment Ends - 15th Oct
+        </button>
       </div>
       <p className="italic md:w-1/2 mx-5 md:mx-auto mt-5 text-center text-xl">
         200+ Hours of Content + 25+ Resources + Private WhatsApp Group + 6

@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Secondcount() {
   const countdown2 = () => {
-    const countDate2 = new Date("July 11, 2022 00:00:00");
+    const countDate2 = new Date("Oct 12, 2022 00:00:00");
     const now2 = new Date().getTime();
     const gap2 = countDate2 - now2;
 
@@ -38,17 +38,21 @@ export default function Secondcount() {
     <div>
       <button className="py-1 px-8 text-lg text-gray-100 font-medium tracking-wide antialiased">
         <div className="countdown flex justify-center gap-2 md:gap-4">
-          <div className="container-day bg-[#193247] rounded-sm py-1 px-2">
-            <h3 className="day2 text-3xl">Time</h3>
+          <div className="container-day bg-[#193247] h-14 w-14 rounded-sm grid place-content-center">
+            <h3 className="day2 text-2xl">00</h3>
+            <h3 className="text-xs capitalize">Days</h3>
           </div>
-          <div className="container-hour bg-[#193247] rounded-sm py-1 px-2">
-            <h3 className="hour2 text-3xl">Time</h3>
+          <div className="container-hour bg-[#193247] h-14 w-14 rounded-sm grid place-content-center">
+            <h3 className="hour2 text-2xl">00</h3>
+            <h3 className="text-xs capitalize">Hour</h3>
           </div>
-          <div className="container-minute bg-[#193247] rounded-sm py-1 px-2">
-            <h3 className="minute2 text-3xl">Time</h3>
+          <div className="container-minute bg-[#193247] h-14 w-14 rounded-sm grid place-content-center">
+            <h3 className="minute2 text-2xl">00</h3>
+            <h3 className="text-xs capitalize">minute</h3>
           </div>
-          <div className="container-second bg-[#193247] rounded-sm py-1 px-2">
-            <h3 className="second2 text-3xl">Time</h3>
+          <div className="container-second bg-[#193247] h-14 w-14 rounded-sm grid place-content-center">
+            <h3 className="second2 text-2xl">00</h3>
+            <h3 className="text-xs capitalize">second</h3>
           </div>
         </div>
       </button>

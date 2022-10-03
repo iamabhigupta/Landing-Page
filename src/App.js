@@ -14,6 +14,7 @@ import Bonus from "./components/Bonus";
 import ProgramFor from "./components/ProgramFor";
 import TimeLine from "./components/TimeLine";
 import Companies from "./components/Companies";
+import VideoReviews from "./components/VideoReviews";
 
 const App = () => {
   return (
@@ -31,7 +32,8 @@ const App = () => {
       <Section5 />
       <Section6 />
       <Bonus />
-      <Testimonials />
+      <VideoReviews />
+      {/* <Testimonials /> */}
       <Faq />
       <Footer />
     </div>

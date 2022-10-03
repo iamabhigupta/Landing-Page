@@ -19,7 +19,7 @@ const Faq = () => {
 
     {
       q: "Will we get any recordings, if we miss any live class?",
-      a: "We will not provide any kind of recording because we solely want to focus on live learning. However video recording will be provided on the basis of special requests in genuine cases.",
+      a: "Yes, you will get recording till 29th Jan.",
     },
     {
       q: "What is your refund Policy?",

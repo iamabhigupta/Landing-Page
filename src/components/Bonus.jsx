@@ -58,7 +58,7 @@ const Bonus = () => {
               </li>
             </ul>
             <h3 className="font-semibold text-xl py-4 uppercase italic">
-              Offer Expired
+              Offer Expires In
             </h3>
             <Firstcount />
           </div>
@@ -91,7 +91,7 @@ const Bonus = () => {
               </li>
             </ul>
             <h3 className="font-semibold text-xl py-4 uppercase italic">
-              Offer Expired
+              Offer Expires In
             </h3>
             <Secondcount />
           </div>
@@ -127,7 +127,7 @@ const Bonus = () => {
               </li>
             </ul>
             <h3 className="font-semibold text-xl py-4 uppercase italic">
-              Offer Expired
+              Offer Expires In
             </h3>
             <Thirdcount />
           </div>
@@ -142,25 +142,25 @@ const Bonus = () => {
           2nd Instalment Before 15th August
         </p> */}
         <div className="flex justify-center uppercase mt-8">
-          <button
-            type="button"
-            className="relative inline-flex items-center mx-7 px-7 py-3.5 rounded-sm border border-transparent bg-green-600 text-lg sm:text-2xl text-white font-medium uppercase hover:bg-green-700"
-          >
-            BECOME DIGITAL MARKETING SCIENTIST
-          </button>
-        </div>
-        <div className="flex justify-center items-center mt-5">
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSdo-ItFZwrSoRgFDkAYgdtaTmtmBBEEBpGHfVXbs3vfAwEI-w/viewform?usp=sf_link">
+          <a href="https://rzp.io/l/nqYBVu8dXj">
             <button
               type="button"
-              className="relative inline-flex items-center mx-7 px-7 py-3.5 rounded-sm border border-transparent bg-[#D14B39] text-lg sm:text-2xl text-white font-medium hover:bg-[#b44132]"
+              className="relative inline-flex items-center mx-7 px-7 py-3.5 rounded-sm border border-transparent bg-green-600 text-lg sm:text-2xl text-white font-medium uppercase hover:bg-green-700"
             >
-              Enrollment Ends - 15th Oct
+              BECOME DIGITAL MARKETING SCIENTIST
             </button>
           </a>
         </div>
+        <div className="flex justify-center items-center mt-5">
+          <button
+            type="button"
+            className="relative inline-flex items-center mx-7 px-7 py-3.5 rounded-sm border border-transparent bg-[#D14B39] text-lg sm:text-2xl text-white font-medium hover:bg-[#b44132]"
+          >
+            Enrollment Ends - 15th Oct
+          </button>
+        </div>
       </div>
-      <div className="bg-white max-w-6xl mx-5 md:mx-auto px-6 py-4 flex transition border border-gray-800 shadow-xl rounded-md mt-8 text-center">
+      {/* <div className="bg-white max-w-6xl mx-5 md:mx-auto px-6 py-4 flex transition border border-gray-800 shadow-xl rounded-md mt-8 text-center">
         <div>
           <h3 className="text-xl mb-3 font-bold text-[#193247]">Note</h3>
           <p className="text-[#193247] font-medium">
@@ -169,7 +169,7 @@ const Bonus = () => {
             the benefits of the program that are applicable till 15th August.
           </p>
         </div>
-      </div>
+      </div> */}
       <p className="italic md:w-1/2 mx-5 md:mx-auto mt-5 mb-10 text-center text-white">
         200+ Hours of Content + 25+ Resources + Private WhatsApp Group + 6
         Months Support + Mentorship + Practical Assignment

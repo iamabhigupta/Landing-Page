@@ -4,7 +4,7 @@ import Stack from "@mui/material/Stack";
 
 export default function Whatsapp() {
   const countdown4 = () => {
-    const countDate4 = new Date("July 17, 2022 10:00:00");
+    const countDate4 = new Date("Oct 15, 2022 10:00:00");
     const now4 = new Date().getTime();
     const gap4 = countDate4 - now4;
 
@@ -38,41 +38,43 @@ export default function Whatsapp() {
 
   return (
     <>
-      <div className="flex md:hidden fixed inset-x-0 bottom-0 z-50 bg-[#193247] text-white p-4">
+      <div className="flex md:hidden fixed inset-x-0 bottom-0 z-50 border-t bg-[#00080f] text-white p-4">
         <div className="font-medium">
-          <span className="text-xl mr-4 font-semibold">₹34,999</span>
+          <span className="text-xl mr-4 font-semibold">₹39,999</span>
           <span className="text-red-700 line-through">
-            <span className="text-white text-sm">₹72,798</span>
+            <span className="text-white text-sm">₹1,00,000</span>
           </span>
           <div>
             <p className="text-xs">
               {/* <span className="ml-1 font-bold">17th Jul, 2022</span> */}
-              {/* <span className="day4 ml-1 font-bold">00</span>
+              <span className="day4 ml-1 font-bold">00</span>
               <span className="font-bold mr-1">d</span>
               <span className="hour4 font-bold">00:</span>
               <span className="font-bold mr-1">h</span>
               <span className="minute4 font-bold">00:</span>
               <span className="font-bold mr-1">m</span>
               <span className="second4 font-bold">00</span>
-              <span className="font-bold mr-1">s</span> */}
-              Join Waitlist
+              <span className="font-bold mr-1">s</span>
+              {/* Join Waitlist */}
             </p>
           </div>
         </div>
         <div className="flex justify-end w-1/2">
           <Stack direction="row" spacing={2}>
-            <Button
-              style={{
-                borderRadius: 5,
-                backgroundColor: "#3d3d3d",
-              }}
-              variant="contained"
-              color="secondary"
-              size="large"
-              endIcon={<FaShoppingCart />}
-            >
-              BUY NOW
-            </Button>
+            <a href="https://rzp.io/l/nqYBVu8dXj">
+              <Button
+                style={{
+                  borderRadius: 5,
+                  backgroundColor: "#17a34a",
+                }}
+                variant="contained"
+                color="secondary"
+                size="large"
+                endIcon={<FaShoppingCart />}
+              >
+                BUY NOW
+              </Button>
+            </a>
           </Stack>
         </div>
       </div>

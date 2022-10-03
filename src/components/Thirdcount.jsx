@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Thirdcount() {
   const countdown2 = () => {
-    const countDate3 = new Date("July 17, 2022 00:00:00");
+    const countDate3 = new Date("Oct 15, 2022 00:00:00");
     const now3 = new Date().getTime();
     const gap3 = countDate3 - now3;
 
@@ -38,21 +38,21 @@ export default function Thirdcount() {
     <div>
       <button className="py-1 px-8 text-lg text-gray-100 font-medium tracking-wide antialiased">
         <div className="countdown flex justify-center gap-2 md:gap-4">
-          <div className="container-day bg-[#193247] rounded-sm py-1 px-2">
-            <h3 className="day3 text-3xl">Time</h3>
-            {/* <h3 className="text-sm capitalize">Days</h3> */}
+          <div className="container-day bg-[#193247] h-14 w-14 rounded-sm grid place-content-center">
+            <h3 className="day3 text-2xl">Time</h3>
+            <h3 className="text-xs capitalize">Days</h3>
           </div>
-          <div className="container-hour bg-[#193247] rounded-sm py-1 px-2">
-            <h3 className="hour3 text-3xl">Time</h3>
-            {/* <h3 className="text-sm capitalize">Hour</h3> */}
+          <div className="container-hour bg-[#193247] h-14 w-14 rounded-sm grid place-content-center">
+            <h3 className="hour3 text-2xl">Time</h3>
+            <h3 className="text-xs capitalize">Hour</h3>
           </div>
-          <div className="container-minute bg-[#193247] rounded-sm py-1 px-2">
-            <h3 className="minute3 text-3xl">Time</h3>
-            {/* <h3 className="text-sm capitalize">minute</h3> */}
+          <div className="container-minute bg-[#193247] h-14 w-14 rounded-sm grid place-content-center">
+            <h3 className="minute3 text-2xl">Time</h3>
+            <h3 className="text-xs capitalize">minute</h3>
           </div>
-          <div className="container-second bg-[#193247] rounded-sm py-1 px-2">
-            <h3 className="second3 text-3xl">Time</h3>
-            {/* <h3 className="text-sm capitalize">second</h3> */}
+          <div className="container-second bg-[#193247] h-14 w-14 rounded-sm grid place-content-center">
+            <h3 className="second3 text-2xl">Time</h3>
+            <h3 className="text-xs capitalize">second</h3>
           </div>
         </div>
       </button>

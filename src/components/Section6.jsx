@@ -86,7 +86,7 @@ export default function Section6() {
           <div className="py-3 pr-5 pl-5 md:pl-10 text-center ">Priceless</div>
         </div>
         <div className="flex justify-center uppercase">
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSdo-ItFZwrSoRgFDkAYgdtaTmtmBBEEBpGHfVXbs3vfAwEI-w/viewform?usp=sf_link">
+          <a href="https://rzp.io/l/nqYBVu8dXj">
             <button
               type="button"
               className="relative inline-flex items-center mx-7 px-7 py-3.5 rounded-sm border border-transparent bg-green-600 text-lg sm:text-2xl text-white font-medium uppercase hover:bg-green-700"
@@ -96,20 +96,18 @@ export default function Section6() {
           </a>
         </div>
         <div className="flex justify-center items-center mt-8">
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSdo-ItFZwrSoRgFDkAYgdtaTmtmBBEEBpGHfVXbs3vfAwEI-w/viewform?usp=sf_link">
-            <button
-              type="button"
-              className="relative inline-flex items-center mx-7 px-7 py-3.5 rounded-sm border border-transparent bg-[#D14B39] text-lg sm:text-2xl text-white font-medium hover:bg-[#b44132]"
-            >
-              Enrollment Ends - 15th Oct
-            </button>
-          </a>
+          <button
+            type="button"
+            className="relative inline-flex items-center mx-7 px-7 py-3.5 rounded-sm border border-transparent bg-[#D14B39] text-lg sm:text-2xl text-white font-medium hover:bg-[#b44132]"
+          >
+            Enrollment Ends - 15th Oct
+          </button>
         </div>
         <div>
           <h2 className="flex justify-center text-2xl sm:text-3xl md:text-4xl  font-bold mb-0 mt-5">
             Total Value Rs
             <span className="text-red-700 line-through  ml-2 md:ml-3">
-              <span className="text-white">₹72,798</span>
+              <span className="text-white">₹1,00,000</span>
             </span>
           </h2>
           <h2 className="flex justify-center text-2xl sm:text-3xl md:text-4xl  font-bold mb-0 mt-3 text-green-500 text-center">
