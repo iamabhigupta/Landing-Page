@@ -10,7 +10,7 @@ const Hero = () => {
           Become Digital Marketing Scientist
         </h1>
         <h2 className="flex justify-center text-3xl sm:text-4xl md:text-5xl  mt-3 italic">
-          In 60 Days Learn from scratch
+          In 100 Days Learn from scratch
         </h2>
         <div className="flex flex-col md:flex-row mt-6 px-2 sm:px-10 lg:px-28">
           <iframe

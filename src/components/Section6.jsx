@@ -100,7 +100,7 @@ export default function Section6() {
             type="button"
             className="relative inline-flex items-center mx-7 px-7 py-3.5 rounded-sm border border-transparent bg-[#D14B39] text-lg sm:text-2xl text-white font-medium hover:bg-[#b44132]"
           >
-            Enrollment Ends - 15th Oct
+            Enrollment Ends - 29th Oct
           </button>
         </div>
         <div>

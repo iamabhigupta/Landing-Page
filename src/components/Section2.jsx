@@ -39,7 +39,7 @@ export default function Section2() {
               </div>
               <div className="flex-grow text-base sm:text-xl font-medium">
                 <p className="">
-                  Course will start on 16th Oct and ends on 22nd Jan
+                  Course will start on 30th Oct and ends on 5th Feb
                 </p>
               </div>
             </div>
@@ -51,7 +51,8 @@ export default function Section2() {
               </div>
               <div className="flex-grow text-base sm:text-xl font-medium">
                 <p className="">
-                  Duration of the Program is <br /> 100 Days
+                  Duration of the Program is 100 days and Live classes will be
+                  only on sundays
                 </p>
               </div>
             </div>
@@ -63,7 +64,7 @@ export default function Section2() {
               </div>
               <div className="flex-grow text-base sm:text-xl font-medium">
                 <p>
-                  Recording of All Live Classes will be provided till 30th Jan
+                  Recording of All Live Classes will be provided till 19th Feb
                 </p>
               </div>
             </div>
@@ -119,7 +120,7 @@ export default function Section2() {
           type="button"
           className="relative inline-flex items-center mx-7 px-7 py-3.5 rounded-sm border border-transparent bg-[#D14B39] text-lg sm:text-2xl text-white font-medium hover:bg-[#b44132]"
         >
-          Enrollment Ends - 15th Oct
+          Enrollment Ends - 29th Oct
         </button>
       </div>
       <p className="italic md:w-1/2 mx-5 md:mx-auto mt-5 text-center text-xl">

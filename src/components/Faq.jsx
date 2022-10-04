@@ -27,7 +27,7 @@ const Faq = () => {
     },
     {
       q: "From Which Device we can access the class?",
-      a: "You can access live classes from mobile as well as Laptop.",
+      a: "You can access live classes only from android mobile.",
     },
     {
       q: "What will be the language of this course? ",

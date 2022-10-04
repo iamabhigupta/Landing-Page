@@ -29,11 +29,14 @@ export default function Section8() {
         <p className="italic md:w-1/2 text-xl mx-5 md:mx-auto mt-4 text-center">
           Professional Teaching in less than ₹175/hr
         </p>
+        <p className="italic md:w-1/2 text-xl mx-5 md:mx-auto mt-4 text-center">
+          Sunday Only Batch
+        </p>
         <button
           type="button"
           className="relative inline-flex items-center mx-7 px-7 py-3.5 rounded-sm border border-transparent bg-[#D14B39] text-lg sm:text-2xl text-white font-medium hover:bg-[#b44132] mt-5"
         >
-          Enrollment Ends - 15th Oct
+          Enrollment Ends - 29th Oct
         </button>
         <p className="italic md:w-2/5 text-xl mx-5 md:mx-auto mt-5">
           200+ Hours of Content + 25+ Resources + Private WhatsApp Group + 6
