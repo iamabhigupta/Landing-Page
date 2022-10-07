@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Secondcount() {
   const countdown2 = () => {
-    const countDate2 = new Date("Oct 12, 2022 00:00:00");
+    const countDate2 = new Date("Oct 19, 2022 00:00:00");
     const now2 = new Date().getTime();
     const gap2 = countDate2 - now2;
 

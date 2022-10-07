@@ -4,7 +4,7 @@ import Stack from "@mui/material/Stack";
 
 export default function Whatsapp() {
   const countdown4 = () => {
-    const countDate4 = new Date("Oct 15, 2022 10:00:00");
+    const countDate4 = new Date("Oct 30, 2022 00:00:00");
     const now4 = new Date().getTime();
     const gap4 = countDate4 - now4;
 
